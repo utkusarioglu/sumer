@@ -1,2 +1,16 @@
+/env-ic
+/ethereum-contracts
+/ethereum-dispatcher
+/infrastructure
+/ingress
+/kafka
+/kafka-consumer-ic
+/namespaces
+/polygon-dispatcher
+/project
+/rest-gateway
 /users
 /secrets
+/wasm
+/web-dapp
+/websocket-gateway
