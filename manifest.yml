@@ -1,0 +1,40 @@
+repos:
+  - url:  https://github.com/utkusarioglu/sumer-env-ic.git
+    path: env-ic
+    track: main
+  - url: https://github.com/utkusarioglu/sumer-ethereum-contracts.git
+    path: ethereum-contracts
+    track: main
+  - url: https://github.com/utkusarioglu/sumer-ethereum-dispatcher.git
+    path: ethereum-dispatcher
+    track: main
+  - url: https://github.com/utkusarioglu/sumer-infrastructure.git
+    path: infrastructure
+    track: main
+  - url: https://github.com/utkusarioglu/sumer-ingress.git
+    path: ingress
+    track: main
+  - url: https://github.com/utkusarioglu/sumer-kafka.git
+    path: kafka
+    track: main 
+  - url: https://github.com/utkusarioglu/sumer-kafka-consumer-ic.git
+    path: kafka-consumer-ic
+    track: main
+  - url: https://github.com/utkusarioglu/sumer-namespaces.git
+    path: namespaces
+    track: main
+  - url: https://github.com/utkusarioglu/sumer-project.git
+    path: project
+    track: main
+  - url: https://github.com/utkusarioglu/sumer-rest-gateway.git
+    path: rest-gateway
+    track: main
+  - url: https://github.com/utkusarioglu/sumer-wasm.git
+    path: wasm
+    track: main
+  - url: https://github.com/utkusarioglu/sumer-web-dapp.git
+    path: web-dapp
+    track: main
+  - url: https://github.com/utkusarioglu/sumer-websocket-gateway.git
+    path: websocket-gateway
+    track: main
