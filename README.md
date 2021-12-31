@@ -17,7 +17,7 @@ This is where private companies and open source organizations would come in, pro
 
 Advertising would probably be the main source of revenue for the filtration layer but I would also expect them to promote some content over others. These two could of course end up being the same thing eventually. 
 
-Dapps would probably make money by either showing ads of their own or promoting certain filters above others. Considering that filtration would be a rather abstract layer, it's very likely that fitration libraries would create their own apps to promote their own backend services. Dapps could also make money by transfer of nfts within the social media system.
+Dapps would probably make money by either showing ads of their own or promoting certain filters above others. Considering that filtration would be a rather abstract layer, it's very likely that fitration companies would create their own apps to promote their own backend services. Dapps could also make money by transfer of nfts within the social media system.
 
 Miners would of course make their money by storing the social media data on the chain.
 
