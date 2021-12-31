@@ -53,12 +53,6 @@ If you just want to peek at the code, here is the list of the repos:
 * [Ethereum Contracts](https://github.com/utkusarioglu/sumer-ethereum-contracts): Ethereum/Polygon smart contracts for the social media
 * [Env IC](https://github.com/utkusarioglu/sumer-env-ic): Environment Variables InitContainer
 * [Rest Gateway](https://github.com/utkusarioglu/sumer-rest-gateway): Rest gateway
+* [Secrets](https://github.com/utkusarioglu/sumer-secrets): Helm chart for kubernetes secrets. Actual secrets are all masked as "secret-dummy-value".
 * [Websocket Gateway](https://github.com/utkusarioglu/sumer-websocket-gateway): Websocket gateway
 * [Kafka Consumer IC](https://github.com/utkusarioglu/sumer-kafka-consumer-ic): Kafka consumer init container
-
-## Excluded repos
-You won't have access to these repos due to their sensitive content:
-  - users
-  - secrets
-
-You will have to create these yourself.
