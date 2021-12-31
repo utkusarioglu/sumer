@@ -29,6 +29,9 @@ repos:
   - url: https://github.com/utkusarioglu/sumer-rest-gateway.git
     path: rest-gateway
     track: main
+  - url: https://github.com/utkusarioglu/sumer-secrets.git
+    path: secrets
+    track: main
   - url: https://github.com/utkusarioglu/sumer-wasm.git
     path: wasm
     track: main
