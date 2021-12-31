@@ -1,7 +1,6 @@
 # Sumer project metarepo
 
-This repo acts as the bucket that collects all the repos that build up the
-sumer project. 
+This repo acts as the bucket that collects all the repos that build up the sumer project. 
 
 ## What is this thing?
 
@@ -23,6 +22,8 @@ Miners would of course make their money by storing the social media data on the 
 
 ## How do I run this thing?
 
+The project consists of a bunch of different repos. You will need to clone all of them to run the system. If you just want to browse the code, there are some instructions below on how to do that.
+
 ### Cloning the project repos
 
 This project is structured as a meta repo. The repo you are currently viewing is the root, and acts as a container for all other components of the project. You can clone the rest of the code by running `git meta sync`. This requires python's metarepo library to be installed on the system. 
@@ -37,8 +38,26 @@ Once you clone the entire project, follow these steps:
 1. run `terraform apply`, check the output and type `yes` if you are content with what you see.
 1. In a while, the cluster should be running in 3 namespaces.
 
+## I just want to browse the code
+
+If you just want to peek at the code, here is the list of the repos:
+
+* [WebDapp](https://github.com/utkusarioglu/sumer-web-dapp): Browser dapp
+* [Project](https://github.com/utkusarioglu/sumer-project): UML diagrams and other documentation
+* [Ingress](https://github.com/utkusarioglu/sumer-ingress): Ingress controller for the kubernetes cluster
+* [Namespaces](https://github.com/utkusarioglu/sumer-namespaces): Kubernetes namespaces
+* [Infrastructure](https://github.com/utkusarioglu/sumer-infrastructure): Terraform code to run the cluster on different environments
+* [Wasm](https://github.com/utkusarioglu/sumer-wasm): WebAssembly component for the dapp
+* [Kafka](https://github.com/utkusarioglu/sumer-kafka): Kafka cluster helm charts using strimzi operator
+* [Ethereum Dispatcher](https://github.com/utkusarioglu/sumer-ethereum-dispatcher): Microservice for dispatching ethereum data to the cluster
+* [Ethereum Contracts](https://github.com/utkusarioglu/sumer-ethereum-contracts): Ethereum/Polygon smart contracts for the social media
+* [Env IC](https://github.com/utkusarioglu/sumer-env-ic): Environment Variables InitContainer
+* [Rest Gateway](https://github.com/utkusarioglu/sumer-rest-gateway): Rest gateway
+* [Websocket Gateway](https://github.com/utkusarioglu/sumer-websocket-gateway): Websocket gateway
+* [Kafka Consumer IC](https://github.com/utkusarioglu/sumer-kafka-consumer-ic): Kafka consumer init container
+
 ## Excluded repos
-You won't have access to repos due to their sensitive content:
+You won't have access to these repos due to their sensitive content:
   - users
   - secrets
 
