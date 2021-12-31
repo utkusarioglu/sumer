@@ -1,6 +1,6 @@
 # Sumer project metarepo
 
-This repo acts as the bucket that collects all the repos that build up the sumer project. 
+This repo acts as the bucket that hosts all the repos that build up the sumer project. 
 
 ## What is this thing?
 
