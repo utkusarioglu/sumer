@@ -26,7 +26,7 @@ The project consists of a bunch of different repos. You will need to clone all o
 
 ### Cloning the project repos
 
-This project is structured as a meta repo. The repo you are currently viewing is the root, and acts as a container for all other components of the project. You can clone the rest of the code by running `git meta sync`. This requires python's metarepo library to be installed on the system. 
+This project is structured as a metarepo. The repo you are currently viewing is the root, and acts as a container for all other components of the project. You can clone the rest of the code by running `git meta sync`. This requires python's [metarepo](https://pypi.org/project/metarepo/) library and [Terraform](https://www.terraform.io/) to be installed on the system. 
 
 If you don't want to install the said library, you can instead go through `manifest.yml` to manually clone the repos that are relevant to you. Note that the repos need to be cloned to custom paths declared at `path` property of each entry. Otherwise, repos that rely on each other for their build operations will fail.
 
@@ -35,7 +35,8 @@ If you don't want to install the said library, you can instead go through `manif
 Once you clone the entire project, follow these steps:
 1. Head to `infrastructure/local`. This dir houses the terraform code for local provisioning.
 1. Run `scripts/replace-images.sh`. This will create docker images for repos that need a custom image.
-1. run `terraform apply`, check the output and type `yes` if you are content with what you see.
+1. Run `terraform init` to initialize terraform.
+1. Run `terraform apply`, check the output and type `yes` if you are content with what you see.
 1. In a while, the cluster should be running in 3 namespaces.
 
 ## I just want to browse the code
