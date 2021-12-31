@@ -53,7 +53,7 @@ If you just want to peek at the code, here is the list of the repos:
 * [Kafka](https://github.com/utkusarioglu/sumer-kafka): Kafka cluster helm charts using strimzi operator
 * [Ethereum Dispatcher](https://github.com/utkusarioglu/sumer-ethereum-dispatcher): Microservice for dispatching ethereum data to the cluster
 * [Ethereum Contracts](https://github.com/utkusarioglu/sumer-ethereum-contracts): Ethereum/Polygon smart contracts for the social media
-* [Env IC](https://github.com/utkusarioglu/sumer-env-ic): Environment Variables InitContainer
+* [Env IC](https://github.com/utkusarioglu/sumer-env-ic): Environment Variables init container
 * [Rest Gateway](https://github.com/utkusarioglu/sumer-rest-gateway): Rest gateway
 * [Secrets](https://github.com/utkusarioglu/sumer-secrets): Helm chart for kubernetes secrets. Actual secrets are all masked as "secret-dummy-value".
 * [Websocket Gateway](https://github.com/utkusarioglu/sumer-websocket-gateway): Websocket gateway
