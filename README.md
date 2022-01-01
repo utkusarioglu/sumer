@@ -32,7 +32,7 @@ If you don't want to install the said library, you can instead go through `manif
 
 ### Running the project in a local environment
 
-Provisioning of the local environment requires [Terraform](https://www.terraform.io/) to be available on the system. You can use terraform either by installing or as a docker container. Once that is done, follow these steps: 
+Provisioning of the local environment requires [Helm](https://helm.sh/), [kubectl](https://kubernetes.io/), [Docker](https://www.docker.com/), and [Terraform](https://www.terraform.io/) to be available on the system. Once you ensure that these tools are available, follow these steps: 
 1. Head to `infrastructure/local`. This directory houses the terraform code for local provisioning.
 1. Run `scripts/replace-images.sh`. This will create docker images for some of the services.
 1. Run `terraform init` to initialize Terraform.
