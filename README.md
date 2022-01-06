@@ -37,7 +37,7 @@ Provisioning of the local environment requires [Helm](https://helm.sh/), [kubect
 1. Run `scripts/replace-images.sh`. This will create docker images for some of the services.
 1. Run `terraform init` to initialize Terraform.
 1. Run `terraform apply`, check the output and type `yes` if you are content with what you see.
-1. In a while, the cluster should be running under namespaces `services`, `kafka`, and `observability`.
+1. In a while, the cluster should be running under namespaces `api`, `kafka`, and `observability`.
 1. Note that sometimes Terraform fails to provision some components. Rerunning `apply` should fix the issue.
 
 ## I just want to browse the code
@@ -52,6 +52,7 @@ If you just want to peek at the code, here is the list of the repos:
 * [Wasm](https://github.com/utkusarioglu/sumer-wasm): WebAssembly component for the dapp
 * [Kafka](https://github.com/utkusarioglu/sumer-kafka): Kafka cluster helm charts using strimzi operator
 * [Ethereum Dispatcher](https://github.com/utkusarioglu/sumer-ethereum-dispatcher): Microservice for dispatching ethereum data to the cluster
+* [Grafana](https://github.com/utkusarioglu/sumer-grafana): Grafana frontend
 * [Ethereum Contracts](https://github.com/utkusarioglu/sumer-ethereum-contracts): Ethereum/Polygon smart contracts for the social media
 * [Env IC](https://github.com/utkusarioglu/sumer-env-ic): Environment Variables init container
 * [Rest Gateway](https://github.com/utkusarioglu/sumer-rest-gateway): Rest gateway

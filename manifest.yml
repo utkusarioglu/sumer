@@ -8,6 +8,9 @@ repos:
   - url: https://github.com/utkusarioglu/sumer-ethereum-dispatcher.git
     path: ethereum-dispatcher
     track: main
+  - url: https://github.com/utkusarioglu/sumer-grafana.git
+    path: grafana
+    track: main
   - url: https://github.com/utkusarioglu/sumer-infrastructure.git
     path: infrastructure
     track: main
